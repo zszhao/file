@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC7A946F1BD3AF8100723A7F /* QYOperationFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A946E1BD3AF8100723A7F /* QYOperationFile.m */; };
+		CC932C1F1BD09974008FA30E /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC932C1E1BD09974008FA30E /* Icon-60@3x.png */; };
+		CCD455291BCFC9290038349E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD455281BCFC9290038349E /* main.m */; };
+		CCD4552C1BCFC9290038349E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD4552B1BCFC9290038349E /* AppDelegate.m */; };
+		CCD4552F1BCFC9290038349E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD4552E1BCFC9290038349E /* ViewController.m */; };
+		CCD455321BCFC9290038349E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD455301BCFC9290038349E /* Main.storyboard */; };
+		CCD455341BCFC9290038349E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD455331BCFC9290038349E /* Images.xcassets */; };
+		CCD455371BCFC9290038349E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD455351BCFC9290038349E /* LaunchScreen.xib */; };
+		CCD455431BCFC9290038349E /* ____02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD455421BCFC9290038349E /* ____02Tests.m */; };
+		CCD455611BCFC9EA0038349E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD4554F1BCFC9EA0038349E /* AFHTTPRequestOperation.m */; };
+		CCD455621BCFC9EA0038349E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD455511BCFC9EA0038349E /* AFHTTPRequestOperationManager.m */; };
+		CCD455631BCFC9EA0038349E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD455531BCFC9EA0038349E /* AFHTTPSessionManager.m */; };
+		CCD455641BCFC9EA0038349E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD455561BCFC9EA0038349E /* AFNetworkReachabilityManager.m */; };
+		CCD455651BCFC9EA0038349E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD455581BCFC9EA0038349E /* AFSecurityPolicy.m */; };
+		CCD455661BCFC9EA0038349E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD4555A1BCFC9EA0038349E /* AFURLConnectionOperation.m */; };
+		CCD455671BCFC9EA0038349E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD4555C1BCFC9EA0038349E /* AFURLRequestSerialization.m */; };
+		CCD455681BCFC9EA0038349E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD4555E1BCFC9EA0038349E /* AFURLResponseSerialization.m */; };
+		CCD455691BCFC9EA0038349E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD455601BCFC9EA0038349E /* AFURLSessionManager.m */; };
+		CCD455701BCFCADE0038349E /* QYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD4556F1BCFCADE0038349E /* QYModel.m */; };
+		CCD455741BCFCAF90038349E /* QYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD455721BCFCAF90038349E /* QYTableViewCell.m */; };
+		CCD455751BCFCAF90038349E /* QYTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD455731BCFCAF90038349E /* QYTableViewCell.xib */; };
+		CCE031541BD0A15500994776 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCE031531BD0A15500994776 /* 3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCD4553D1BCFC9290038349E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4551B1BCFC9290038349E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD455221BCFC9290038349E;
+			remoteInfo = "二手房-02";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC7A946D1BD3AF8100723A7F /* QYOperationFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYOperationFile.h; sourceTree = "<group>"; };
+		CC7A946E1BD3AF8100723A7F /* QYOperationFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYOperationFile.m; sourceTree = "<group>"; };
+		CC932C1E1BD09974008FA30E /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		CCD455231BCFC9290038349E /* 二手房-02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二手房-02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD455271BCFC9290038349E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD455281BCFC9290038349E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCD4552A1BCFC9290038349E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCD4552B1BCFC9290038349E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCD4552D1BCFC9290038349E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCD4552E1BCFC9290038349E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCD455311BCFC9290038349E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD455331BCFC9290038349E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCD455361BCFC9290038349E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCD4553C1BCFC9290038349E /* 二手房-02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二手房-02Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD455411BCFC9290038349E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD455421BCFC9290038349E /* ____02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____02Tests.m"; sourceTree = "<group>"; };
+		CCD4554E1BCFC9EA0038349E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CCD4554F1BCFC9EA0038349E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		CCD455501BCFC9EA0038349E /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		CCD455511BCFC9EA0038349E /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		CCD455521BCFC9EA0038349E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CCD455531BCFC9EA0038349E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CCD455541BCFC9EA0038349E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CCD455551BCFC9EA0038349E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CCD455561BCFC9EA0038349E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CCD455571BCFC9EA0038349E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CCD455581BCFC9EA0038349E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CCD455591BCFC9EA0038349E /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		CCD4555A1BCFC9EA0038349E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		CCD4555B1BCFC9EA0038349E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CCD4555C1BCFC9EA0038349E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CCD4555D1BCFC9EA0038349E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CCD4555E1BCFC9EA0038349E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CCD4555F1BCFC9EA0038349E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CCD455601BCFC9EA0038349E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		CCD4556D1BCFCAC00038349E /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		CCD4556E1BCFCADE0038349E /* QYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYModel.h; sourceTree = "<group>"; };
+		CCD4556F1BCFCADE0038349E /* QYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYModel.m; sourceTree = "<group>"; };
+		CCD455711BCFCAF90038349E /* QYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTableViewCell.h; sourceTree = "<group>"; };
+		CCD455721BCFCAF90038349E /* QYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTableViewCell.m; sourceTree = "<group>"; };
+		CCD455731BCFCAF90038349E /* QYTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYTableViewCell.xib; sourceTree = "<group>"; };
+		CCE031531BD0A15500994776 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD455201BCFC9290038349E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD455391BCFC9290038349E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCD4551A1BCFC9290038349E = {
+			isa = PBXGroup;
+			children = (
+				CCD455251BCFC9290038349E /* 二手房-02 */,
+				CCD4553F1BCFC9290038349E /* 二手房-02Tests */,
+				CCD455241BCFC9290038349E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD455241BCFC9290038349E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD455231BCFC9290038349E /* 二手房-02.app */,
+				CCD4553C1BCFC9290038349E /* 二手房-02Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD455251BCFC9290038349E /* 二手房-02 */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4556D1BCFCAC00038349E /* Header.h */,
+				CC7A946D1BD3AF8100723A7F /* QYOperationFile.h */,
+				CC7A946E1BD3AF8100723A7F /* QYOperationFile.m */,
+				CCD4556C1BCFCA9D0038349E /* Controllers */,
+				CCD4556B1BCFCA920038349E /* Views */,
+				CCD4556A1BCFCA850038349E /* Model */,
+				CCD4554C1BCFC9950038349E /* AFNetWork */,
+				CCD4552A1BCFC9290038349E /* AppDelegate.h */,
+				CCD4552B1BCFC9290038349E /* AppDelegate.m */,
+				CCD455331BCFC9290038349E /* Images.xcassets */,
+				CCD455351BCFC9290038349E /* LaunchScreen.xib */,
+				CCD455261BCFC9290038349E /* Supporting Files */,
+			);
+			path = "二手房-02";
+			sourceTree = "<group>";
+		};
+		CCD455261BCFC9290038349E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE031531BD0A15500994776 /* 3.jpg */,
+				CC932C1E1BD09974008FA30E /* Icon-60@3x.png */,
+				CCD455271BCFC9290038349E /* Info.plist */,
+				CCD455281BCFC9290038349E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCD4553F1BCFC9290038349E /* 二手房-02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD455421BCFC9290038349E /* ____02Tests.m */,
+				CCD455401BCFC9290038349E /* Supporting Files */,
+			);
+			path = "二手房-02Tests";
+			sourceTree = "<group>";
+		};
+		CCD455401BCFC9290038349E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD455411BCFC9290038349E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCD4554C1BCFC9950038349E /* AFNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4554D1BCFC9EA0038349E /* AFNetworking */,
+			);
+			name = AFNetWork;
+			sourceTree = "<group>";
+		};
+		CCD4554D1BCFC9EA0038349E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4554E1BCFC9EA0038349E /* AFHTTPRequestOperation.h */,
+				CCD4554F1BCFC9EA0038349E /* AFHTTPRequestOperation.m */,
+				CCD455501BCFC9EA0038349E /* AFHTTPRequestOperationManager.h */,
+				CCD455511BCFC9EA0038349E /* AFHTTPRequestOperationManager.m */,
+				CCD455521BCFC9EA0038349E /* AFHTTPSessionManager.h */,
+				CCD455531BCFC9EA0038349E /* AFHTTPSessionManager.m */,
+				CCD455541BCFC9EA0038349E /* AFNetworking.h */,
+				CCD455551BCFC9EA0038349E /* AFNetworkReachabilityManager.h */,
+				CCD455561BCFC9EA0038349E /* AFNetworkReachabilityManager.m */,
+				CCD455571BCFC9EA0038349E /* AFSecurityPolicy.h */,
+				CCD455581BCFC9EA0038349E /* AFSecurityPolicy.m */,
+				CCD455591BCFC9EA0038349E /* AFURLConnectionOperation.h */,
+				CCD4555A1BCFC9EA0038349E /* AFURLConnectionOperation.m */,
+				CCD4555B1BCFC9EA0038349E /* AFURLRequestSerialization.h */,
+				CCD4555C1BCFC9EA0038349E /* AFURLRequestSerialization.m */,
+				CCD4555D1BCFC9EA0038349E /* AFURLResponseSerialization.h */,
+				CCD4555E1BCFC9EA0038349E /* AFURLResponseSerialization.m */,
+				CCD4555F1BCFC9EA0038349E /* AFURLSessionManager.h */,
+				CCD455601BCFC9EA0038349E /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CCD4556A1BCFCA850038349E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4556E1BCFCADE0038349E /* QYModel.h */,
+				CCD4556F1BCFCADE0038349E /* QYModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CCD4556B1BCFCA920038349E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCD455301BCFC9290038349E /* Main.storyboard */,
+				CCD455711BCFCAF90038349E /* QYTableViewCell.h */,
+				CCD455721BCFCAF90038349E /* QYTableViewCell.m */,
+				CCD455731BCFCAF90038349E /* QYTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CCD4556C1BCFCA9D0038349E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4552D1BCFC9290038349E /* ViewController.h */,
+				CCD4552E1BCFC9290038349E /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD455221BCFC9290038349E /* 二手房-02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD455461BCFC9290038349E /* Build configuration list for PBXNativeTarget "二手房-02" */;
+			buildPhases = (
+				CCD4551F1BCFC9290038349E /* Sources */,
+				CCD455201BCFC9290038349E /* Frameworks */,
+				CCD455211BCFC9290038349E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "二手房-02";
+			productName = "二手房-02";
+			productReference = CCD455231BCFC9290038349E /* 二手房-02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCD4553B1BCFC9290038349E /* 二手房-02Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD455491BCFC9290038349E /* Build configuration list for PBXNativeTarget "二手房-02Tests" */;
+			buildPhases = (
+				CCD455381BCFC9290038349E /* Sources */,
+				CCD455391BCFC9290038349E /* Frameworks */,
+				CCD4553A1BCFC9290038349E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD4553E1BCFC9290038349E /* PBXTargetDependency */,
+			);
+			name = "二手房-02Tests";
+			productName = "二手房-02Tests";
+			productReference = CCD4553C1BCFC9290038349E /* 二手房-02Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD4551B1BCFC9290038349E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CCD455221BCFC9290038349E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CCD4553B1BCFC9290038349E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CCD455221BCFC9290038349E;
+					};
+				};
+			};
+			buildConfigurationList = CCD4551E1BCFC9290038349E /* Build configuration list for PBXProject "二手房-02" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD4551A1BCFC9290038349E;
+			productRefGroup = CCD455241BCFC9290038349E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD455221BCFC9290038349E /* 二手房-02 */,
+				CCD4553B1BCFC9290038349E /* 二手房-02Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD455211BCFC9290038349E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD455321BCFC9290038349E /* Main.storyboard in Resources */,
+				CC932C1F1BD09974008FA30E /* Icon-60@3x.png in Resources */,
+				CCD455751BCFCAF90038349E /* QYTableViewCell.xib in Resources */,
+				CCE031541BD0A15500994776 /* 3.jpg in Resources */,
+				CCD455371BCFC9290038349E /* LaunchScreen.xib in Resources */,
+				CCD455341BCFC9290038349E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD4553A1BCFC9290038349E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD4551F1BCFC9290038349E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD455611BCFC9EA0038349E /* AFHTTPRequestOperation.m in Sources */,
+				CC7A946F1BD3AF8100723A7F /* QYOperationFile.m in Sources */,
+				CCD4552F1BCFC9290038349E /* ViewController.m in Sources */,
+				CCD455621BCFC9EA0038349E /* AFHTTPRequestOperationManager.m in Sources */,
+				CCD455641BCFC9EA0038349E /* AFNetworkReachabilityManager.m in Sources */,
+				CCD455681BCFC9EA0038349E /* AFURLResponseSerialization.m in Sources */,
+				CCD455741BCFCAF90038349E /* QYTableViewCell.m in Sources */,
+				CCD455661BCFC9EA0038349E /* AFURLConnectionOperation.m in Sources */,
+				CCD455651BCFC9EA0038349E /* AFSecurityPolicy.m in Sources */,
+				CCD455631BCFC9EA0038349E /* AFHTTPSessionManager.m in Sources */,
+				CCD455671BCFC9EA0038349E /* AFURLRequestSerialization.m in Sources */,
+				CCD455691BCFC9EA0038349E /* AFURLSessionManager.m in Sources */,
+				CCD455701BCFCADE0038349E /* QYModel.m in Sources */,
+				CCD4552C1BCFC9290038349E /* AppDelegate.m in Sources */,
+				CCD455291BCFC9290038349E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD455381BCFC9290038349E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD455431BCFC9290038349E /* ____02Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCD4553E1BCFC9290038349E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD455221BCFC9290038349E /* 二手房-02 */;
+			targetProxy = CCD4553D1BCFC9290038349E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCD455301BCFC9290038349E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD455311BCFC9290038349E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD455351BCFC9290038349E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD455361BCFC9290038349E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD455441BCFC9290038349E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCD455451BCFC9290038349E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD455471BCFC9290038349E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "二手房-02/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCD455481BCFC9290038349E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "二手房-02/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCD4554A1BCFC9290038349E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "二手房-02Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/二手房-02.app/二手房-02";
+			};
+			name = Debug;
+		};
+		CCD4554B1BCFC9290038349E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "二手房-02Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/二手房-02.app/二手房-02";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD4551E1BCFC9290038349E /* Build configuration list for PBXProject "二手房-02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD455441BCFC9290038349E /* Debug */,
+				CCD455451BCFC9290038349E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD455461BCFC9290038349E /* Build configuration list for PBXNativeTarget "二手房-02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD455471BCFC9290038349E /* Debug */,
+				CCD455481BCFC9290038349E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD455491BCFC9290038349E /* Build configuration list for PBXNativeTarget "二手房-02Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD4554A1BCFC9290038349E /* Debug */,
+				CCD4554B1BCFC9290038349E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD4551B1BCFC9290038349E /* Project object */;
+}
